@@ -14,5 +14,3 @@ pipeline{
         }
     }
 }
-
-aws cloudformation create-stack --stack-name exampleStack --template-body file://cfn.json --parameters ParameterKey=KeyExample,ParameterValue=KeyExample
