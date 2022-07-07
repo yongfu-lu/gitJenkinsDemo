@@ -1,0 +1,1 @@
+data = 'this is just a mock data'
