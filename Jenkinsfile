@@ -1,3 +1,5 @@
+this.today = new Date()
+
 pipeline{
     agent any
     stages {
@@ -5,7 +7,7 @@ pipeline{
             steps{
                 sh "echo this is \
                     for testing line continuation \
-                    there are three lines "
+                    there are three lines ${today}"
             }
         }
     }
