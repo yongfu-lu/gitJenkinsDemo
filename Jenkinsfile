@@ -7,7 +7,7 @@ pipeline{
             steps{
                 sh "echo this is \
                     for testing line continuation \
-                    there are three lines ${today}"
+                    there are three lines ${today.format("MM/dd/yyyy")}"
             }
         }
     }
